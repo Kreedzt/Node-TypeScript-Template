@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "strict": false
+  },
+  "files": [
+    "src/index.ts"
+  ],
+  "include": ["./types/*.d.ts"],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
