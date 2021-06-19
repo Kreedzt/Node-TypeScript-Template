@@ -7,3 +7,4 @@ type ES = {
 };
 
 type fn = (a: string) => string;
+type Dict<T = any> = Record<string, T>;

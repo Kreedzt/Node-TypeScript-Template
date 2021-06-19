@@ -6,7 +6,7 @@ const filenamesArr: string[] = [];
 const pathName = '/Users/kreedzt/Documents/Projects/learnRust/12.minigrep';
 
 async function statFile(filename: string) {
-  return new Promise((res, rej) => {
+  return new Promise<void>((res, rej) => {
     fs.stat(filename, async (error, stats) => {
       if (error) {
         rej(`获取文件${filename}: stat失败`);

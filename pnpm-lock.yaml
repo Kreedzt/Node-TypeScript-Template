@@ -1,0 +1,15 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^14.0.27
+
+dependencies:
+  '@types/node': registry.nlark.com/@types/node/14.17.3
+
+packages:
+
+  registry.nlark.com/@types/node/14.17.3:
+    resolution: {integrity: sha1-bTJ6uqS+NKdOQh7WQJoK4vR/TD0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/node/download/@types/node-14.17.3.tgz}
+    name: '@types/node'
+    version: 14.17.3
+    dev: false
