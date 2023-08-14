@@ -1,15 +1,27 @@
-lockfileVersion: 5.3
+lockfileVersion: '6.0'
 
-specifiers:
-  '@types/node': ^14.0.27
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
-dependencies:
-  '@types/node': registry.nlark.com/@types/node/14.17.3
+devDependencies:
+  '@types/node':
+    specifier: ^14.17.3
+    version: registry.nlark.com/@types/node@14.17.3
+  typescript:
+    specifier: ^5.1.6
+    version: 5.1.6
 
 packages:
 
-  registry.nlark.com/@types/node/14.17.3:
-    resolution: {integrity: sha1-bTJ6uqS+NKdOQh7WQJoK4vR/TD0=, registry: https://registry.npm.taobao.org/, tarball: https://registry.nlark.com/@types/node/download/@types/node-14.17.3.tgz}
+  /typescript@5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true
+
+  registry.nlark.com/@types/node@14.17.3:
+    resolution: {integrity: sha1-bTJ6uqS+NKdOQh7WQJoK4vR/TD0=, registry: https://registry.npmjs.org/, tarball: https://registry.nlark.com/@types/node/download/@types/node-14.17.3.tgz}
     name: '@types/node'
     version: 14.17.3
-    dev: false
+    dev: true

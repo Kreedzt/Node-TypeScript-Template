@@ -1,5 +1,3 @@
-import * as child_process from 'child_process';
+import { fnModule } from './module';
 
-const { execSync } = child_process;
-
-const res = execSync('tasklist steam');
+fnModule(1);
